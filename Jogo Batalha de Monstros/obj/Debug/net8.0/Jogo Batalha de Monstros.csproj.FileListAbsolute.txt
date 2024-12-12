@@ -1,0 +1,14 @@
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\Jogo Batalha de Monstros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\Jogo Batalha de Monstros.AssemblyInfoInputs.cache
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\Jogo Batalha de Monstros.AssemblyInfo.cs
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\Jogo Batalha de Monstros.csproj.CoreCompileInputs.cache
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\bin\Debug\net8.0\Jogo Batalha de Monstros.exe
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\bin\Debug\net8.0\Jogo Batalha de Monstros.deps.json
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\bin\Debug\net8.0\Jogo Batalha de Monstros.runtimeconfig.json
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\bin\Debug\net8.0\Jogo Batalha de Monstros.dll
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\bin\Debug\net8.0\Jogo Batalha de Monstros.pdb
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\Jogo Batalha de Monstros.dll
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\refint\Jogo Batalha de Monstros.dll
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\Jogo Batalha de Monstros.pdb
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\Jogo Batalha de Monstros.genruntimeconfig.cache
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\ref\Jogo Batalha de Monstros.dll
