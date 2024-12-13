@@ -1,5 +1,7 @@
 # Documentação do Jogo: **Batalha de Monstros**
 
+**Integrantes:** David, Gabriel Eliezer, José.
+
 ## Introdução
 
 O jogo *Batalha de Monstros* é uma aplicação de console que simula batalhas entre jogadores e/ou IA utilizando um sistema de combate por turnos. O projeto foi implementado em C# e emprega diversos *Design Patterns* para garantir modularidade, organização e escalabilidade.

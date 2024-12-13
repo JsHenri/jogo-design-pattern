@@ -12,3 +12,4 @@ C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0
 C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\Jogo Batalha de Monstros.pdb
 C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\Jogo Batalha de Monstros.genruntimeconfig.cache
 C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\ref\Jogo Batalha de Monstros.dll
+C:\Users\hjose\OneDrive\Desktop\JogoDP\Jogo Batalha de Monstros\obj\Debug\net8.0\Jogo Batalha de Monstros.sourcelink.json
