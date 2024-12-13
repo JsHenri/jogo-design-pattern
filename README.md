@@ -13,6 +13,7 @@ O jogo *Batalha de Monstros* é uma aplicação de console que simula batalhas e
 - **Modo PvP:** Dois jogadores podem jogar entre si.
 - **Modo PvE:** Um jogador pode enfrentar um inimigo controlado pela IA(Não implementado).
 - **Sistema de Pontuação:** A cada vitória, pontos são atribuídos aos jogadores.
+- **Estado do Jogo:** Permite salvar e restaurar o estado atual, incluindo vida e pontuação de ambos os jogadores.
 
 ---
 
@@ -57,6 +58,9 @@ O jogo *Batalha de Monstros* é uma aplicação de console que simula batalhas e
 ### 4. **Observer**
 - **Descrição:** Permite que múltiplos objetos sejam notificados sobre mudanças de estado.
 - **Uso Potencial:** Para notificar os jogadores sobre mudanças no estado do jogo, como a redução de vida dos monstros.
+## 5. **Memento**
+- **Descrição:** Permite capturar e restaurar o estado de um objeto em um momento específico.
+- **Aplicação no Jogo:** Implementado através das classes JogoMemento, JogoOriginator e JogoCaretaker, que garantem a funcionalidade de salvar e carregar o progresso.
 
 ---
 
