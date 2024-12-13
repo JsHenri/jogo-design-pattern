@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jogo Batalha de Monstros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d1dfb73b7c526e7f65be97b81793b2556603ff2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb6f87b61cd103dd9688cb73bc5e02862b1526ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jogo Batalha de Monstros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jogo Batalha de Monstros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

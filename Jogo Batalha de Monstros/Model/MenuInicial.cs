@@ -38,7 +38,11 @@ namespace BatalhaDeMonstros
 
         private static void NovoJogo()
         {
+            JogoOriginator jogo = new JogoOriginator();
+            JogoCaretaker caretaker = new JogoCaretaker();
 
+            // Configurações iniciais do jogo
+            jogo.SetEstado(100, 100, 0, 0);
 
             Console.WriteLine("Informe seu Nome: ");
             string jogadora = Console.ReadLine();
@@ -56,13 +60,49 @@ namespace BatalhaDeMonstros
 
             Monstro jogador1 = MonstroFactory.CriarMonstro(jogador1Escolha);
             Monstro jogador2 = MonstroFactory.CriarMonstro(jogador2Escolha);
-            ControladorDeTurnos controlador = new ControladorDeTurnos(jogador1, jogador2, jogadora, jogadorb);
-            controlador.IniciarBatalha(jogadora, jogadorb);
+
+            while (true)
+            {
+                jogo.ExibirEstadoAtual();
+                Console.WriteLine("Escolha uma ação: (1) Salvar Jogo, (2) Sair");
+                string escolha = Console.ReadLine();
+
+                switch (escolha)
+                {
+                    case "1":
+                        caretaker.SalvarEstado(jogo.SalvarEstado());
+                        Console.WriteLine("Jogo salvo com sucesso!");
+                        break;
+                    case "2":
+                        Console.WriteLine("Saindo do jogo...");
+                        System.Environment.Exit(1);
+                        break;
+                    default:
+                        Console.WriteLine("Opção inválida.");
+                        break;
+                }
+                ControladorDeTurnos controlador = new ControladorDeTurnos(jogador1, jogador2, jogadora, jogadorb);
+                controlador.IniciarBatalha(jogadora, jogadorb);
+            }
+            
         }
 
         private static void CarregarJogo()
         {
-            Console.WriteLine("Funcionalidade de carregar jogo ainda não implementada!");
+            JogoOriginator jogo = new JogoOriginator();
+            JogoCaretaker caretaker = new JogoCaretaker();
+            
+            var estadoSalvo = caretaker.CarregarEstado();
+            if (estadoSalvo != null)
+            {
+                jogo.RestaurarEstado(estadoSalvo);
+                Console.WriteLine("Jogo carregado com sucesso!");
+                jogo.ExibirEstadoAtual();
+            }
+            else
+            {
+                Console.WriteLine("Nenhum progresso salvo encontrado.");
+            }
         }
     }
 }
